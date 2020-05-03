@@ -1,0 +1,17 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 40%;
+    height: 100vh;
+    background: rgba(255, 255, 255, .8);
+    max-width: 400px;
+
+    transition: 1s ease-in-out transform;
+    transform: translateX(0px);
+}
+
+.NavBar.close {
+    transform: translateX(-400px);
+}

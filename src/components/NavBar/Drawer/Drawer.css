@@ -1,0 +1,12 @@
+.Drawer {}
+
+.Drawer li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.Drawer li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}

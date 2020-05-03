@@ -1,0 +1,52 @@
+.QuizResult {
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0 10px;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+.QuizResult ul {
+    list-style: none;
+    padding: 0;
+
+    margin: 0;
+}
+
+.QuizResult ul li {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.QuizResult i {
+    padding-left: 10px;
+}
+
+.QuizResult h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.fa.fa-check {
+    color: rgba(10,200,10, .9);
+}
+
+.fa.fa-times {
+    color: red;
+}
+
+.QuizResult > .button {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border: black solid .5px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.QuizResult > .button:hover {
+    background: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
